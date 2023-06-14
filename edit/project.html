@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/master.css">
+    <script src="https://kit.fontawesome.com/25be263b35.js" crossorigin="anonymous"></script>
+    
+    <title>Resume Builder</title>
+</head>
+<body>
+
+    <header>
+        <i class="fa-solid fa-file-lines fa-beat"></i>
+    
+        <script src="/scripts/nav.js"></script>
+        <nav>
+            <ul>
+                <li>Resume Name</li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="summary.html">Summary</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="certification.html">Certification</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="finalresult.html">Final Result</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="" method="post">
+            <section>
+                <div>
+                    <div>
+                        <p>Give your project a</p>
+                        <label for="title">Title</label>
+                    </div>
+                    <input type="text" name="title" id="title" placeholder="Volunteer">
+
+                    <div>
+                        <p>In which</p>
+                        <label for="org">Organization</label>
+                        <p>did you do your project</p>
+                    </div>
+                    <input type="text" name="org" id="org" placeholder="Microsoft">
+
+                    <div>
+                        <p>When did you</p>
+                        <label for="startdate">start</label>
+                        <p>working on your project?</p>
+                    </div>
+                    <input type="date" name="startdate" id="enddate">
+                    <div>
+                        <p>When did you</p>
+                        <label for="startdate">stop</label>
+                        <p>working on your project?</p>
+                    </div>
+                    <input type="date" name="enddate" id="enddate">
+
+                    <div>
+                        <label for="describe">Describe</label>
+                        <p>what you did</p>
+                    </div>
+                    <textarea name="describe" id="describe" cols="80" rows="10" placeholder="• I designed..."></textarea>
+
+                </div>
+            </section>
+
+            <input type="submit" name="submit" id="submit" value="Save Project Info">
+        </form>
+    </main>
+    
+</body>
+</html>
